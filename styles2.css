@@ -6,29 +6,29 @@
     height: 50%; 
 }
 
-img { 
-    width: 100%; 
-    height: auto; 
-} 
-
 body { 
     font-family: Arial, sans-serif; 
     font-size: 16px; 
     text-align: center;
+    color: coral;
     background-image: url("https://theqube.com/wp-content/uploads/2021/10/THE_QUBE_MAIN_STUDIO_SHOOT_19.09.2021_EDITS_LOW-RES_043.jpg"); 
 } 
- 
+
+p {
+    text-align: center;
+} 
 
 h1 { 
     font-size: 1.5em; 
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold; 
     text-align: center; 
-    color: slategrey;
+    color: coral;
     /* background-image: url("https://bt-wpstatic.freetls.fastly.net/wp-content/blogs.dir/3186/files/2016/11/downtown-jersey-city-entertainment-licenses-ordiance.jpg");  */
 } 
     
 h2 { 
-    font-size: 1.5em; 
+    font-size: 1.2em; 
     font-weight: bold; 
     text-align: center;
     background-color: aquamarine;
@@ -44,13 +44,9 @@ ul {
 } 
 
 li { 
-    margin-bottom: 16px; 
+    margin-bottom: 10px; 
     color: coral;
     
     /* text-align: center; background-image: url("https://bt-wpstatic.freetls.fastly.net/wp-content/blogs.dir/3186/files/2016/11/downtown-jersey-city-entertainment-licenses-ordiance.jpg");  */
     
 } 
-
-.navbar-nav > .active > a {
-    color: red;
-}
